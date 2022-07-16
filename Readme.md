@@ -1,5 +1,13 @@
 
-# Overview
+# Power Platform Playbook 
+
+Power platform: According to a comment on Microsoft document, Quickly build data-driven business solutions with the Microsoft Power Platform—Power BI, Power Apps, Power Automate, and Power Virtual Agents.
+
+ - Power Apps: Low code, No code - Canvas app, Model-driven apps integrated with Dataverse
+ - Power Automate: Automated processes with flows, RPA 
+ - Power Virtual Agents: Intelligent conversational bot platform
+ - AI Builder: AI models provider to optimize your business processes
+ - Power BI: Business intelligence (BI), reporting, and data visualization
 
 The `dolution` is a composition of demo applications created by power platform. 
 
