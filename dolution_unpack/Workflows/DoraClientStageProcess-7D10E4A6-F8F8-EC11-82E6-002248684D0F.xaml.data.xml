@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{7d10e4a6-f8f8-ec11-82e6-002248684d0f}" Name="DoraClientStageProcess" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/DoraClientStageProcess-7D10E4A6-F8F8-EC11-82E6-002248684D0F.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>crd3d_doraclient1</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>crd3d_DoraClient</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="DoraClientStageProcess" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{8d37fd2d-4a65-4111-8123-d04d20899c53}">
+      <label languagecode="1033" description="New Stage" />
+    </steplabels>
+    <steplabels id="{065e6d97-4885-4d98-9092-3fc22a28dc6b}">
+      <label languagecode="1033" description="Initial" />
+    </steplabels>
+    <steplabels id="{7d139d05-9506-414b-b3ec-a9bc69ef0c95}">
+      <label languagecode="1033" description="Approved" />
+    </steplabels>
+    <steplabels id="{969b66b7-0104-4d77-a664-deaf860ddaf4}">
+      <label languagecode="1033" description="Name" />
+    </steplabels>
+    <steplabels id="{30b13ed3-b31a-4147-b513-3c8681064eab}">
+      <label languagecode="1033" description="Rejected" />
+    </steplabels>
+    <steplabels id="{483eac3c-c716-486b-b1fc-f9c94adf1b0b}">
+      <label languagecode="1033" description="Name" />
+    </steplabels>
+    <steplabels id="{320be74f-8881-4c91-a0ff-359059dba8ef}">
+      <label languagecode="1033" description="Review" />
+    </steplabels>
+    <steplabels id="{b223d5eb-c81a-4ab6-9f30-552949796190}">
+      <label languagecode="1033" description="Name" />
+    </steplabels>
+  </labels>
+</Workflow>

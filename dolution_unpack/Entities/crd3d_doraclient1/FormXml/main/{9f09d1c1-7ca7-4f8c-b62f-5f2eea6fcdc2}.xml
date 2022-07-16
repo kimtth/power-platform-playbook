@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9f09d1c1-7ca7-4f8c-b62f-5f2eea6fcdc2}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{8d37fd2d-4a65-4111-8123-d04d20899c53}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{2ef1e9ce-04ff-42a6-9ff0-d6039a55d0d0}">
+          <labels>
+            <label description="New Stage" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{c4f48c98-5b71-7f3f-07c1-882d9924407f}" name="StageStep3_section1" labelid="{f6b3f012-8fba-4f11-b0ff-cfb6733e5a18}">
+                  <labels>
+                    <label description="New Stage" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{065e6d97-4885-4d98-9092-3fc22a28dc6b}" showlabel="true" visible="true" labelid="{196c8016-57d6-4a46-99a3-6d4e48540080}">
+                        <labels>
+                          <label description="Initial" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_crd3d_doraclient_crd3d_doraclient1:crd3d_name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crd3d_name" disabled="false" relationship="bpf_crd3d_doraclient_crd3d_doraclient1" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{7d139d05-9506-414b-b3ec-a9bc69ef0c95}" name="StageStep7" locklevel="0" expanded="true" visible="false" labelid="{051acd58-cd9e-4da6-90d8-949d61e09b92}">
+          <labels>
+            <label description="Approved" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{36ad511c-67c3-25e6-28cd-c6a158738b07}" name="StageStep7_section1" labelid="{dc26e5fa-5850-4137-9560-63f9a10d93f7}">
+                  <labels>
+                    <label description="Approved" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{969b66b7-0104-4d77-a664-deaf860ddaf4}" showlabel="true" visible="true" labelid="{5ca9de56-d629-4212-aec4-3c738cb496fd}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_crd3d_doraclient_crd3d_doraclient1:crd3d_name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crd3d_name" disabled="false" relationship="bpf_crd3d_doraclient_crd3d_doraclient1" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{30b13ed3-b31a-4147-b513-3c8681064eab}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{75a6d517-a69e-40c5-82fb-03d20febf9e8}">
+          <labels>
+            <label description="Rejected" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{72044e9d-8c7d-ef52-1d08-b51619776aed}" name="StageStep11_section1" labelid="{bd0b1250-f395-4f75-8b73-f295309f89df}">
+                  <labels>
+                    <label description="Rejected" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{483eac3c-c716-486b-b1fc-f9c94adf1b0b}" showlabel="true" visible="true" labelid="{5187c0fb-7026-4853-8849-47aebdc479f7}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_crd3d_doraclient_crd3d_doraclient1:crd3d_name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crd3d_name" disabled="false" relationship="bpf_crd3d_doraclient_crd3d_doraclient1" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{320be74f-8881-4c91-a0ff-359059dba8ef}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{7545b836-2207-4fa2-92f8-fe14cf112946}">
+          <labels>
+            <label description="Review" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{992c43e9-0827-2db7-d5b9-bf6a0b26d5dd}" name="StageStep15_section1" labelid="{d5b7ff73-4af2-4746-9dc1-97b6b1267e8e}">
+                  <labels>
+                    <label description="Review" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b223d5eb-c81a-4ab6-9f30-552949796190}" showlabel="true" visible="true" labelid="{332b1aa1-3404-424c-919e-a2ff0dd4ccac}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_crd3d_doraclient_crd3d_doraclient1:crd3d_name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crd3d_name" disabled="false" relationship="bpf_crd3d_doraclient_crd3d_doraclient1" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

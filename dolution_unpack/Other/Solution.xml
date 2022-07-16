@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.22062.180" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>dolution</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="dolution" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>0.1.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>dora_author</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="dora_author" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>dora</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>44314</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="crd3d_doraclient" behavior="0" />
+      <RootComponent type="1" schemaName="crd3d_doraclient1" behavior="0" />
+      <RootComponent type="29" id="{7d10e4a6-f8f8-ec11-82e6-002248684d0f}" behavior="0" />
+      <RootComponent type="29" id="{c70ccb67-3bfb-ec11-82e6-002248684d0f}" behavior="0" />
+      <RootComponent type="60" id="{12a5cfbb-31fb-ec11-82e6-002248684d0f}" behavior="0" />
+      <RootComponent type="62" schemaName="crd3d_doraclient1" behavior="0" />
+      <RootComponent type="80" schemaName="crd3d_doraclient1" behavior="0" />
+      <RootComponent type="80" schemaName="msdyn_SolutionHealthHub" behavior="0" />
+      <RootComponent type="300" schemaName="dora_doraaib_51b2b" behavior="0" />
+      <RootComponent type="300" schemaName="dora_dorayak_8175f" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202206.1.201.1)">
+          <package>msdyn_AISolutionAnchor (202206.1.201.1)</package>
+        </Required>
+        <Dependent type="300" schemaName="dora_doraaib_51b2b" displayName="dora-aib" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="crd3d_doraclient1" displayName="dora-client" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyncrm_/libs/ckeditor/plugins/link/images/anchor.png" displayName="msdyncrm_/libs/ckeditor/plugins/link/images/anchor.png" solution="SampleEditorCustomControl (1.70.180.0)" />
+        <Dependent type="60" displayName="dora-board" id="{12a5cfbb-31fb-ec11-82e6-002248684d0f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="80" schemaName="msdyn_SolutionHealthHub" displayName="Solution Health Hub" solution="msdyn_PowerAppsChecker (1.2.0.176)" />
+        <Dependent type="80" schemaName="msdyn_SolutionHealthHub" displayName="Solution Health Hub" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

@@ -1,0 +1,11 @@
+<environmentvariabledefinition schemaname="dora_doraenvvar1">
+  <defaultvalue>0601</defaultvalue>
+  <displayname default="dora-env-var1">
+    <label description="dora-env-var1" languagecode="1033" />
+  </displayname>
+  <introducedversion>0.1.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000001</type>
+</environmentvariabledefinition>

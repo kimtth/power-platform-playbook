@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msdyn_SolutionHealthHub</UniqueName>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <WebResourceId>bedc0fc7-53e4-e811-8158-000d3af78f35</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="msdyn_SolutionHealthHub" />
+    <AppModuleComponent type="1" schemaName="msdyn_analysiscomponent" />
+    <AppModuleComponent type="1" schemaName="msdyn_analysisjob" />
+    <AppModuleComponent type="1" schemaName="msdyn_analysisresult" />
+    <AppModuleComponent type="1" schemaName="msdyn_solutionhealthrule" />
+    <AppModuleComponent type="1" schemaName="msdyn_solutionhealthruleargument" />
+    <AppModuleComponent type="1" schemaName="msdyn_solutionhealthruleset" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{2d101bb3-5ced-4122-83f1-94d5efde4e3b}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Solution Health Hub" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Solution Health Hub enables rules-based validation on the health of your organization and its components. Developers and solution implementers can create rules that allow admins to prevent or diagnose potential problems and promote the health of your organization and organization components. Administrators can run the defined rules periodically and as a first step in troubleshooting to discover potential problems, help prevent difficulties, and safeguard operations in their organization." languagecode="1033" />
+  </Descriptions>
+</AppModule>

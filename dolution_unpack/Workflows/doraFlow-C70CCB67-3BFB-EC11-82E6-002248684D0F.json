@@ -1,0 +1,67 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_rss": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "dora_sharedrss_1e919"
+        },
+        "api": {
+          "name": "shared_rss"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "フィード項目が発行される場合": {
+          "recurrence": {
+            "interval": 1,
+            "frequency": "Minute"
+          },
+          "splitOn": "@triggerOutputs()?['body/value']",
+          "metadata": {
+            "operationMetadataId": "e71a16bc-6635-4fd5-9afb-18d4094f99ea"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_rss",
+              "operationId": "OnNewFeed",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_rss"
+            },
+            "parameters": {
+              "feedUrl": "https://powerautomate.microsoft.com/en-us/blog/feed/",
+              "sinceProperty": "PublishDate"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "actions": {
+        "終了": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "eca8ccac-ed45-4e9d-81f6-34beceae7a8f"
+          },
+          "type": "Terminate",
+          "inputs": {
+            "runStatus": "Succeeded"
+          }
+        }
+      }
+    }
+  },
+  "schemaVersion": "1.0.0.0"
+}

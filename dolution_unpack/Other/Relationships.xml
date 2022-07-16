@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="bpf_crd3d_doraclient_crd3d_doraclient1" />
+  <EntityRelationship Name="business_unit_crd3d_doraclient" />
+  <EntityRelationship Name="lk_crd3d_doraclient_createdby" />
+  <EntityRelationship Name="lk_crd3d_doraclient_modifiedby" />
+  <EntityRelationship Name="lk_crd3d_doraclient1_activestageid" />
+  <EntityRelationship Name="lk_crd3d_doraclient1_createdby" />
+  <EntityRelationship Name="lk_crd3d_doraclient1_modifiedby" />
+  <EntityRelationship Name="lk_crd3d_doraclient1_processid" />
+  <EntityRelationship Name="organization_crd3d_doraclient1" />
+  <EntityRelationship Name="owner_crd3d_doraclient" />
+  <EntityRelationship Name="team_crd3d_doraclient" />
+  <EntityRelationship Name="user_crd3d_doraclient" />
+</EntityRelationships>

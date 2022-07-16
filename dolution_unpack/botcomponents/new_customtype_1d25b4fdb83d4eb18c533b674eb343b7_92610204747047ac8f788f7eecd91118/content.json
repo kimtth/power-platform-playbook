@@ -1,0 +1,14 @@
+{
+  "regexTypes": [
+    {
+      "regExPattern": "\\b[1-5]\\b",
+      "customTypeSchema": "RegexPattern",
+      "id": "new_customtype_1d25b4fdb83d4eb18c533b674eb343b7_92610204747047ac8f788f7eecd91118",
+      "displayName": "CSAT Rating",
+      "createdTime": "2019-01-15T00:00:00Z",
+      "updatedTime": "2019-01-15T00:00:00Z",
+      "createdUserId": "user0",
+      "updatedUserId": "user0"
+    }
+  ]
+}

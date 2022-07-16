@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>crd3d_doraclient1</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="crd3d_doraclient1" />
+    <AppModuleComponent type="29" id="{7d10e4a6-f8f8-ec11-82e6-002248684d0f}" />
+    <AppModuleComponent type="60" id="{57220268-843b-e511-80d1-00155db10d2b}" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="crd3d_doraclient" />
+    <AppModuleComponent type="26" id="{b2e9ebbf-7bad-489c-8fd2-ec1a95391d10}" />
+    <AppModuleComponent type="1" schemaName="crd3d_doraclient1" />
+    <AppModuleComponent type="1" schemaName="knowledgearticle" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="dora-client" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>
